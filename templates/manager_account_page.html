@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manager account page</title>
+  </head>
+  <body>
+    <h3>Manager Dashboard</h3>
+    <a href="http://127.0.0.1:5000/manager_request/{{username}}">
+      <div>
+        <button id="request_reim">Request Reimbursement</button>
+      </div>
+    </a>
+    <a href="http://127.0.0.1:5000/manager_view_request/{{username}}">
+      <div>
+        <button id="view-prev-req">View Previous Request</button>
+      </div>
+    </a>
+
+    <a href="http://127.0.0.1:5000/manager_view_all_request/{{username}}">
+      <div>
+        <button id="view-all-req">View All Request</button>
+      </div>
+    </a>
+    <a href="http://127.0.0.1:5000/manager_view_accepted_request/{{username}}">
+      <div>
+        <button id="view-accepted-req">View Accepted Request</button>
+      </div>
+    </a>
+    <a href="http://127.0.0.1:5000/manager_view_rejected_request/{{username}}">
+      <div>
+        <button id="view-rejected-req">View Rejected Request</button>
+      </div>
+    </a>
+    <a href="http://127.0.0.1:5000/">
+      <div>
+        <button>Logout</button>
+      </div>
+    </a>
+  </body>
+</html>
